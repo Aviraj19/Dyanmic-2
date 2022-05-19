@@ -1,0 +1,29 @@
+body {
+    background-size: cover;
+}
+#Ai {
+    font-size:20px;
+}
+#status,#Number{
+    font-size:15px;
+}
+#start{
+    font-size:20px;
+}
+canvas{
+ background-color: aqua;
+ border:10px solid palevioletred;
+ animation:Example 4s infinite;
+}
+@keyframes Example{
+    from{box-shadow:5px 5px 30px gold;}
+    to{box-shadow: 5px 5px 30px red;}
+}
+#footer {
+    font-size:30px;
+    position: fixed;
+    bottom:0;
+    text-align: right;
+    right:20;
+    color: teal;
+}
