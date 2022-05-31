@@ -14,6 +14,7 @@ canvas{
  background-color: aqua;
  border:10px solid palevioletred;
  animation:Example 4s infinite;
+ margin-top: 30px;
 }
 @keyframes Example{
     from{box-shadow:5px 5px 30px gold;}
